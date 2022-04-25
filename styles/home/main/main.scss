@@ -41,7 +41,7 @@ html {
                     left: 50%;
                     transform: translateX(-50%);
                     width: 100%;
-                    height: 60px;
+                    height: 75px;
                     .AMR-icon {
                         position: absolute;
                         top: 50%;
@@ -58,11 +58,11 @@ html {
                         top: 50%;
                         left: 50%;
                         transform: translate(-50%, -50%);
-                        height: 50px;
+                        height: 73px;
                         width: calc(80% - (60px * 2) - 20px);
                         border-bottom: 1px solid black;
                         text-align: center;
-                        line-height: 50px;
+                        line-height: 73px;
                         vertical-align: top;
                         font-size: 2rem;
                         span {
@@ -87,11 +87,11 @@ html {
                     bottom: 0;
                     left: 50%;
                     transform: translateX(-50%);
-                    height: calc(100% - 60px);
+                    height: calc(100% - 85px);
                     width: 100%;
                     .text {
                         width: 100%;
-                        height: 20%;
+                        height: 10%;
                         position: relative;
                         .text-in {
                             position: absolute;
@@ -105,46 +105,42 @@ html {
                     }
                     .content {
                         width: 100%;
-                        height: 80%;
+                        height: 90%;
                         position: relative;
                         .app-one {
                             width: 100%;
-                            height: 19%;
+                            height: 20%;
                             background-image: url(../../../images/home/01.svg);
                             background-repeat: no-repeat;
                             background-position: center;
                         }
                         .app-two {
                             width: 100%;
-                            height: 19%;
+                            height: 20%;
                             background-image: url(../../../images/home/02.svg);
                             background-repeat: no-repeat;
                             background-position: center;
                         }
                         .app-three {
                             width: 100%;
-                            height: 19%;
+                            height: 20%;
                             background-image: url(../../../images/home/03.svg);
                             background-repeat: no-repeat;
                             background-position: center;
                         }
                         .app-four {
                             width: 100%;
-                            height: 19%;
+                            height: 20%;
                             background-image: url(../../../images/home/04.svg);
                             background-repeat: no-repeat;
                             background-position: center;
                         }
                         .app-five {
                             width: 100%;
-                            height: 19%;
+                            height: 20%;
                             background-image: url(../../../images/home/05.svg);
                             background-repeat: no-repeat;
                             background-position: center;
-                        }
-                        .remainder {
-                            width: 100%;
-                            height: 5%;
                         }
                     }
                 }
