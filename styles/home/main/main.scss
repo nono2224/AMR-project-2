@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'font-one';
+    src: url(../../../fonts/Arial\ Black.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    body {
+        width: 100vw;
+        height: 100vh;
+        height: 100dvh;
+        background-color: black;
+        position: relative;
+        .background {
+            background-image: url(../../../images/home/one.svg);
+            background-size: 40px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            height: calc(100% - 4%);
+            background-color: white;
+            transition: 0.25s;
+            .main {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 90%;
+                height: 90%;
+                background-color: white;
+                border: 2px solid black;
+                header {
+                    position: absolute;
+                    top: 0;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 100%;
+                    height: 60px;
+                    .AMR-icon {
+                        position: absolute;
+                        top: 50%;
+                        left: 10px;
+                        transform: translateY(-50%);
+                        height: 50px;
+                        width: 50px;
+                        border-radius: 50%;
+                        background-color: lightgray;
+                    }
+                    .app-name {
+                        position: absolute;
+                        font-family: 'font-one';
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        height: 50px;
+                        width: calc(80% - (60px * 2) - 20px);
+                        border-bottom: 1px solid black;
+                        text-align: center;
+                        line-height: 50px;
+                        vertical-align: top;
+                        font-size: 2rem;
+                        span {
+                            background: linear-gradient(transparent 60%, #ff6 60%);
+                        }
+                    }
+                    .home-button {
+                        position: absolute;
+                        top: 50%;
+                        right: 10px;
+                        transform: translateY(-50%);
+                        height: 50px;
+                        width: 50px;
+                        border: none;
+                        border-radius: 50%;
+                        background-color: lightgray;
+                    }
+                }
+                .select {
+                    position: absolute;
+                    box-sizing: border-box;
+                    bottom: 0;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    height: calc(100% - 60px);
+                    width: 100%;
+                    .text {
+                        width: 100%;
+                        height: 20%;
+                        position: relative;
+                        .text-in {
+                            position: absolute;
+                            font-family: 'font-one';
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            font-size: 1.5rem;
+                            span {
+                                background: linear-gradient(transparent 60%, #ff6 60%);
+                            }
+                        }
+                    }
+                    .content {
+                        width: 100%;
+                        height: 80%;
+                        position: relative;
+                        .app-one {
+                            width: 100%;
+                            height: 19%;
+                        }
+                        .app-two {
+                            width: 100%;
+                            height: 19%;
+                        }
+                        .app-three {
+                            width: 100%;
+                            height: 19%;
+                        }
+                        .app-four {
+                            width: 100%;
+                            height: 19%;
+                        }
+                        .app-five {
+                            width: 100%;
+                            height: 19%;
+                        }
+                        .remainder {
+                            width: 100%;
+                            height: 5%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
