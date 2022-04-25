@@ -115,22 +115,37 @@ html body .background .main .select .content {
 html body .background .main .select .content .app-one {
   width: 100%;
   height: 19%;
+  background-image: url(../../../images/home/01.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 html body .background .main .select .content .app-two {
   width: 100%;
   height: 19%;
+  background-image: url(../../../images/home/02.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 html body .background .main .select .content .app-three {
   width: 100%;
   height: 19%;
+  background-image: url(../../../images/home/03.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 html body .background .main .select .content .app-four {
   width: 100%;
   height: 19%;
+  background-image: url(../../../images/home/04.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 html body .background .main .select .content .app-five {
   width: 100%;
   height: 19%;
+  background-image: url(../../../images/home/05.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 html body .background .main .select .content .remainder {
   width: 100%;
